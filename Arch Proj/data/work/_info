@@ -1,0 +1,778 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Kolya/CMP/Third Year/Computer Architecture/Project
+Eadder
+Z0 w1506635747
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/data
+Z4 8D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/adder.vhd
+Z5 FD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/adder.vhd
+l0
+L4
+VUQGM_=nQhTF;^>K2UJD1d3
+!s100 RkX;GDBPKQmgCTUN0@2H01
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1513537150
+!i10b 1
+Z8 !s108 1513537150.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/adder.vhd|
+Z10 !s107 D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/adder.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Astruct
+R1
+R2
+DEx4 work 5 adder 0 22 UQGM_=nQhTF;^>K2UJD1d3
+l10
+L9
+VPzD0h6cf?a@bBhM>fJkh60
+!s100 8K4GVKHJh?5agS:VoJ6;?0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ealu
+Z13 w1513444200
+R1
+R2
+R3
+Z14 8D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/ALU.vhd
+Z15 FD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/ALU.vhd
+l0
+L4
+V0NCk6mhQ4SJVmnVo_G`Mn1
+!s100 A<lNFG@_gRLaUcUNZ;aIe0
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/ALU.vhd|
+Z17 !s107 D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/ALU.vhd|
+!i113 1
+R11
+R12
+Astruct
+Z18 DEx4 work 6 mux4x1 0 22 h;_0hJCbW4O]9>>XZMcH[1
+Z19 DEx4 work 5 partd 0 22 8g4Z[RVc6d@b3Bn8VKbUY2
+Z20 DEx4 work 5 partc 0 22 DMM?i6=n7HCki[;5Q5S[o0
+Z21 DEx4 work 5 partb 0 22 L<VZV3AhiKJd39T3EBRoN2
+Z22 DEx4 work 5 parta 0 22 ?[F14bW0fAm_WezP[h9XP2
+R1
+R2
+Z23 DEx4 work 3 alu 0 22 0NCk6mhQ4SJVmnVo_G`Mn1
+l17
+L13
+ViAX1eYSca`>FJ4=oQWeQf3
+!s100 nOVc81L=o`=^RaUAUZC4U1
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Edecoder
+Z24 w1513366732
+Z25 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R3
+Z26 8D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/decoder.vhd
+Z27 FD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/decoder.vhd
+l0
+L5
+V:489di4D^a2kdjPRJlzMb3
+!s100 PfnGzSUcie>6^;@A`8foL3
+R6
+32
+R7
+!i10b 1
+R8
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/decoder.vhd|
+Z29 !s107 D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/decoder.vhd|
+!i113 1
+R11
+R12
+Astructuralmodel
+R25
+R1
+R2
+Z30 DEx4 work 7 decoder 0 22 :489di4D^a2kdjPRJlzMb3
+l13
+L12
+V7VBTaLba4A4KiJ[L[WYh@3
+!s100 G69BHNcdg?fFE@5e90ELS0
+R6
+32
+R7
+!i10b 1
+R8
+R28
+R29
+!i113 1
+R11
+R12
+Edflipflop
+Z31 w1513459599
+R1
+R2
+R3
+Z32 8D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/DFlipFlop.vhd
+Z33 FD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/DFlipFlop.vhd
+l0
+L4
+VgX0;FJ34M1Li>IXKI15ii1
+!s100 2149b[c@0X074Zh]`U;Ne0
+R6
+32
+Z34 !s110 1513537152
+!i10b 1
+Z35 !s108 1513537152.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/DFlipFlop.vhd|
+Z37 !s107 D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/DFlipFlop.vhd|
+!i113 1
+R11
+R12
+Astructuralmodel
+R1
+R2
+Z38 DEx4 work 9 dflipflop 0 22 gX0;FJ34M1Li>IXKI15ii1
+l11
+L10
+Z39 VLnUj1Z9In7;mPfmR1c7em2
+Z40 !s100 M3K3ZKgARj37edoTozbjf3
+R6
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R11
+R12
+Efulladder
+Z41 w1506636041
+R1
+R2
+R3
+Z42 8D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/fullAdder.vhd
+Z43 FD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/fullAdder.vhd
+l0
+L4
+VE=ah]mU8:kRG?mHo8PzK23
+!s100 ND[QN@jofYn1]Pic5gM6A1
+R6
+32
+R7
+!i10b 1
+R8
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/fullAdder.vhd|
+Z45 !s107 D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/fullAdder.vhd|
+!i113 1
+R11
+R12
+Astruct
+R1
+R2
+Z46 DEx4 work 9 fulladder 0 22 E=ah]mU8:kRG?mHo8PzK23
+l20
+L12
+V^o0oVzTQ8Gi0h>aG]FPeX3
+!s100 2=1lUX@:N3`nUFIdARN8N2
+R6
+32
+R7
+!i10b 1
+R8
+R44
+R45
+!i113 1
+R11
+R12
+Emux2
+Z47 w1506033549
+R1
+R2
+R3
+Z48 8D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux2.vhd
+Z49 FD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux2.vhd
+l0
+L4
+V41JF8i[L3HhUN>oL^Qe9W0
+!s100 KTMWnlRa`9PAehc98TQ`B3
+R6
+32
+R7
+!i10b 1
+R8
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux2.vhd|
+Z51 !s107 D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux2.vhd|
+!i113 1
+R11
+R12
+Adata_flow
+R1
+R2
+DEx4 work 4 mux2 0 22 41JF8i[L3HhUN>oL^Qe9W0
+l11
+L10
+V9feHch82<O@R?mBCBVnGT1
+!s100 JjIZ:T4JPHbi]YPhBfN8`1
+R6
+32
+R7
+!i10b 1
+R8
+R50
+R51
+!i113 1
+R11
+R12
+Emux2x1
+Z52 w1508533487
+R1
+R2
+R3
+Z53 8D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux2x1.vhd
+Z54 FD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux2x1.vhd
+l0
+L4
+V[aPfhzC;g04h5Se36Q:3D2
+!s100 ;^HF2;;d02A:Cb`RQVX0M2
+R6
+32
+R7
+!i10b 1
+R8
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux2x1.vhd|
+Z56 !s107 D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux2x1.vhd|
+!i113 1
+R11
+R12
+Aarch1
+R1
+R2
+Z57 DEx4 work 6 mux2x1 0 22 [aPfhzC;g04h5Se36Q:3D2
+l12
+L11
+VUP@4bUaWF;I@mKgWe;j:21
+!s100 O4i=@<DmeI?lbfzonI1Hn0
+R6
+32
+R7
+!i10b 1
+R8
+R55
+R56
+!i113 1
+R11
+R12
+Emux4x1
+Z58 w1513444255
+R1
+R2
+R3
+Z59 8D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux4x1.vhd
+Z60 FD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux4x1.vhd
+l0
+L4
+Vh;_0hJCbW4O]9>>XZMcH[1
+!s100 Q_3>LzB?^Qb6[z?bUMNmV3
+R6
+32
+Z61 !s110 1513537151
+!i10b 1
+Z62 !s108 1513537151.000000
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux4x1.vhd|
+Z64 !s107 D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux4x1.vhd|
+!i113 1
+R11
+R12
+Aarch1
+R1
+R2
+R18
+l12
+L11
+VdM333jd]`]9]2caUI99?c3
+!s100 YV3KzFQVcEedTQl>16`TD0
+R6
+32
+R61
+!i10b 1
+R62
+R63
+R64
+!i113 1
+R11
+R12
+Emux5x1
+Z65 w1513451880
+R1
+R2
+R3
+Z66 8D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux5x1.vhd
+Z67 FD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux5x1.vhd
+l0
+L4
+VeodT:InLMeYNM_iAHOEC53
+!s100 oVj?m2a:@4IN]DD6;RZOO2
+R6
+32
+R34
+!i10b 1
+R62
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux5x1.vhd|
+Z69 !s107 D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux5x1.vhd|
+!i113 1
+R11
+R12
+Aarch1
+R1
+R2
+Z70 DEx4 work 6 mux5x1 0 22 eodT:InLMeYNM_iAHOEC53
+l12
+L11
+VRPO@GMHFO=2QAc2EQf[2]3
+!s100 O@7W<>XO91WjSURTiGmHe2
+R6
+32
+R34
+!i10b 1
+R62
+R68
+R69
+!i113 1
+R11
+R12
+Emuxgeneric
+Z71 w1513431555
+R25
+R1
+R2
+R3
+Z72 8D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/muxGeneric.vhd
+Z73 FD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/muxGeneric.vhd
+l0
+L5
+V9OcdY[VI;TVA4LilacGjT0
+!s100 @7edZPClN;jBOnX3BBBL23
+R6
+32
+R61
+!i10b 1
+R62
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/muxGeneric.vhd|
+Z75 !s107 D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/muxGeneric.vhd|
+!i113 1
+R11
+R12
+Aarch1
+R25
+R1
+R2
+Z76 DEx4 work 10 muxgeneric 0 22 9OcdY[VI;TVA4LilacGjT0
+l14
+L13
+Vme=b5SVkl`heKBIAYWP:E3
+!s100 o76l7bfjD7nX_1ga3Qn>g0
+R6
+32
+R61
+!i10b 1
+R62
+R74
+R75
+!i113 1
+R11
+R12
+Eparta
+Z77 w1506637618
+R1
+R2
+R3
+Z78 8D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partA.vhd
+Z79 FD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partA.vhd
+l0
+L4
+V?[F14bW0fAm_WezP[h9XP2
+!s100 =jY9;ab90nRBX2`2`HElA2
+R6
+32
+R61
+!i10b 1
+R62
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partA.vhd|
+Z81 !s107 D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partA.vhd|
+!i113 1
+R11
+R12
+Astruct
+R1
+R2
+R22
+l31
+L13
+V;LW4@e1nz0NZAgG:KHJP61
+!s100 kYB:[<=2TdUB[MW?loQIo3
+R6
+32
+R61
+!i10b 1
+R62
+R80
+R81
+!i113 1
+R11
+R12
+Epartb
+Z82 w1506632065
+R1
+R2
+R3
+Z83 8D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partB.vhd
+Z84 FD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partB.vhd
+l0
+L4
+VL<VZV3AhiKJd39T3EBRoN2
+!s100 0RLVghSV@L?6_[`gFSGY82
+R6
+32
+R61
+!i10b 1
+R62
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partB.vhd|
+Z86 !s107 D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partB.vhd|
+!i113 1
+R11
+R12
+Astruct
+R1
+R2
+R21
+l20
+L11
+Vc2a^Ui=VC>^ZQh9]N>:1o0
+!s100 c]AZ2VOZlO6=JcL@DH5;Y0
+R6
+32
+R61
+!i10b 1
+R62
+R85
+R86
+!i113 1
+R11
+R12
+Epartc
+Z87 w1506632091
+R1
+R2
+R3
+Z88 8D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partC.vhd
+Z89 FD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partC.vhd
+l0
+L4
+VDMM?i6=n7HCki[;5Q5S[o0
+!s100 @mc[3ea^b=@CZKT@9DmKd0
+R6
+32
+R61
+!i10b 1
+R62
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partC.vhd|
+Z91 !s107 D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partC.vhd|
+!i113 1
+R11
+R12
+Astruct
+R1
+R2
+R20
+l23
+L13
+VfolbTFI4e?MozBGZ6<DA41
+!s100 WKQ@flUX7KA2]29XN7;KE3
+R6
+32
+R61
+!i10b 1
+R62
+R90
+R91
+!i113 1
+R11
+R12
+Epartd
+Z92 w1506632111
+R1
+R2
+R3
+Z93 8D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partD.vhd
+Z94 FD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partD.vhd
+l0
+L4
+V8g4Z[RVc6d@b3Bn8VKbUY2
+!s100 R[Nf^jULNVT1UWL7k46bR1
+R6
+32
+R61
+!i10b 1
+R62
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partD.vhd|
+Z96 !s107 D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partD.vhd|
+!i113 1
+R11
+R12
+Astruct
+R1
+R2
+R19
+l23
+L13
+VzDioIT9PmenN<dGVm>m[30
+!s100 ezEeYdN8JAlK1VXX6aX0F2
+R6
+32
+R61
+!i10b 1
+R62
+R95
+R96
+!i113 1
+R11
+R12
+Eram
+Z97 w1513533503
+R25
+R1
+R2
+R3
+Z98 8D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/ram.vhd
+Z99 FD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/ram.vhd
+l0
+L5
+VNE3hJ3=gf9CX6>4`2Lajg2
+!s100 a?TbnH;8G]7TXVFUOHdNM1
+R6
+32
+R61
+!i10b 1
+R62
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/ram.vhd|
+Z101 !s107 D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/ram.vhd|
+!i113 1
+R11
+R12
+Asyncrama
+R25
+R1
+R2
+Z102 DEx4 work 3 ram 0 22 NE3hJ3=gf9CX6>4`2Lajg2
+l21
+L17
+VOWPOi`A]7P9A]Y4`=GFDb0
+!s100 58hQN2j[5mPTW6fSHZFGB3
+R6
+32
+R61
+!i10b 1
+R62
+R100
+R101
+!i113 1
+R11
+R12
+Eregisterfile
+Z103 w1513537147
+R25
+R1
+R2
+R3
+Z104 8D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mainController.vhd
+Z105 FD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mainController.vhd
+l0
+L5
+VcLU4e>loc@kA9I^6:_QKk3
+!s100 jBG7GD@J`6d9n46NogR?`3
+R6
+32
+R7
+!i10b 1
+R8
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mainController.vhd|
+Z107 !s107 D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mainController.vhd|
+!i113 1
+R11
+R12
+Astructuralmodel
+R70
+R18
+Z108 DEx4 work 3 rom 0 22 [@^aGNR_a<;ki_me6CAVX0
+R46
+R102
+R23
+R76
+Z109 DEx4 work 15 tristate_buffer 0 22 0D0f4nBGPc4bhR5S>Yl`e2
+Z110 DEx4 work 15 registergeneric 0 22 lkW:NX?mU4IKfPIBDW:d41
+R57
+R30
+R38
+R25
+R1
+R2
+DEx4 work 12 registerfile 0 22 cLU4e>loc@kA9I^6:_QKk3
+l52
+L51
+VSYk<h6Ecn5]b81LfXZ7B41
+!s100 @kdzj_UJA2D5?5h[nMCfb0
+R6
+32
+R7
+!i10b 1
+R8
+R106
+R107
+!i113 1
+R11
+R12
+Eregistergeneric
+Z111 w1513536569
+R1
+R2
+R3
+Z112 8D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/register.vhd
+Z113 FD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/register.vhd
+l0
+L4
+VlkW:NX?mU4IKfPIBDW:d41
+!s100 6WjiDmUN?93C:ni8oMnko0
+R6
+32
+R61
+!i10b 1
+R62
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/register.vhd|
+Z115 !s107 D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/register.vhd|
+!i113 1
+R11
+R12
+Astructuralmodel
+R1
+R2
+R110
+l14
+L13
+Vk3[aWI1^VGoVAZILzbT=23
+!s100 @zOb_NbLgiTlSnhbeGMM;3
+R6
+32
+R61
+!i10b 1
+R62
+R114
+R115
+!i113 1
+R11
+R12
+Erom
+Z116 w1513523403
+R25
+R1
+R2
+R3
+Z117 8D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/rom.vhd
+Z118 FD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/rom.vhd
+l0
+L5
+V[@^aGNR_a<;ki_me6CAVX0
+!s100 =C[FF<PTBdXda2aNnCMDG0
+R6
+32
+R61
+!i10b 1
+R62
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/rom.vhd|
+Z120 !s107 D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/rom.vhd|
+!i113 1
+R11
+R12
+Aarch1
+R25
+R1
+R2
+R108
+l67
+L12
+Vh7H^gVEolj`H7V89SoUhU1
+!s100 mZ>P3Jnmh?aOSEg=oeIfN2
+R6
+32
+R61
+!i10b 1
+R62
+R119
+R120
+!i113 1
+R11
+R12
+Etristate_buffer
+Z121 w1508530803
+R1
+R2
+R3
+Z122 8D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/tristate_buffer.vhd
+Z123 FD:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/tristate_buffer.vhd
+l0
+L4
+V0D0f4nBGPc4bhR5S>Yl`e2
+!s100 ibm=?QfSYzAK]`m?AjeeP3
+R6
+32
+R61
+!i10b 1
+R62
+Z124 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/tristate_buffer.vhd|
+Z125 !s107 D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/tristate_buffer.vhd|
+!i113 1
+R11
+R12
+Astructuralmodel
+R1
+R2
+R109
+l12
+L11
+V7:C:b87G[dnTYh:3@5`bz1
+!s100 4_mRUmGO[5Z:f3OKmjcNN1
+R6
+32
+R61
+!i10b 1
+R62
+R124
+R125
+!i113 1
+R11
+R12

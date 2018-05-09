@@ -1,0 +1,154 @@
+{D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/tristate_buffer.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/tristate_buffer.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tristate_buffer
+-- Compiling architecture StructuralModel of tristate_buffer
+
+} {} {}} {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux2.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2
+-- Compiling architecture Data_flow of mux2
+
+} {} {}} {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/decoder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Decoder
+-- Compiling architecture StructuralModel of Decoder
+
+} {} {}} {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/muxGeneric.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/muxGeneric.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity muxGeneric
+-- Compiling architecture arch1 of muxGeneric
+
+} {} {}} {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/DFlipFlop.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/DFlipFlop.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DFlipFlop
+-- Compiling architecture StructuralModel of DFlipFlop
+
+} {} {}} {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partA.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partA.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity partA
+-- Compiling architecture struct of partA
+
+} {} {}} {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity partB
+-- Compiling architecture struct of partB
+
+} {} {}} {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/ALU.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU
+-- Compiling architecture struct of ALU
+-- Loading entity partA
+-- Loading entity partB
+-- Loading entity partC
+-- Loading entity partD
+-- Loading entity mux4x1
+
+} {} {}} {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partC.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity partC
+-- Compiling architecture struct of partC
+
+} {} {}} {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partD.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/partD.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity partD
+-- Compiling architecture struct of partD
+
+} {} {}} {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/fullAdder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/fullAdder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fullAdder
+-- Compiling architecture struct of fullAdder
+
+} {} {}} {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/register.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity RegisterGeneric
+-- Compiling architecture StructuralModel of RegisterGeneric
+
+} {} {}} {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux2x1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux2x1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2x1
+-- Compiling architecture arch1 of mux2x1
+
+} {} {}} {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/rom.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/rom.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity rom
+-- Compiling architecture arch1 of rom
+
+} {} {}} {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux4x1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux4x1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux4x1
+-- Compiling architecture arch1 of mux4x1
+
+} {} {}} {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/ram.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/ram.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ram
+-- Compiling architecture syncrama of ram
+
+} {} {}} {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux5x1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/mux5x1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux5x1
+-- Compiling architecture arch1 of mux5x1
+
+} {} {}} {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Kolya/CMP/Third Year/Computer Architecture/Arch Proj/adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder
+-- Compiling architecture struct of adder
+
+} {} {}}

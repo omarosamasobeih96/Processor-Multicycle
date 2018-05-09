@@ -1,0 +1,36 @@
+00 MOV
+01 ADD
+02 ADC
+03 SUB
+04 SBC
+05 AND
+06 OR
+07 XOR
+08 BIC
+0A CMP
+0B INC
+0C DEC
+0D CLR
+0E INV
+0F LSR
+10 ROR
+11 RRC
+12 ASR
+13 LSL
+14 ROL
+15 RLC
+16 HLT
+17 NOP
+18 RESET
+19 JSR
+1D RTS
+1F fetch source register mode
+20 fetch source auto-increment mode
+22 fetch source auto-decrement mode
+24 fetch source offset mode
+27 fetch destination register mode
+28 fetch destination auto-increment mode
+29 fetch destination auto-decrement mode
+2B fetch destination offset mode
+2D fetch and decode instruction
+2F branching

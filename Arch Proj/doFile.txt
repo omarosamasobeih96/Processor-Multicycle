@@ -1,0 +1,37 @@
+vsim -gui work.testbench
+mem load -skip 0 -filltype inc -filldata 00000064 -fillradix hexadecimal /testbench/ux/ram1/ram
+# vsim -gui work.testbench 
+# Start time: 20:27:05 on Oct 31,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testbench(testbench_a)
+# Loading work.registerfile(structuralmodel)
+# Loading work.registergeneric(structuralmodel)
+# Loading work.tristate_buffer(structuralmodel)
+# Loading work.decoder(structuralmodel)
+# Loading work.mux2x1(arch1)
+# Loading work.ram(syncrama)
+# Loading work.rom(arch1)
+add wave -position insertpoint  \
+sim:/testbench/RomAddress \
+sim:/testbench/Clk \
+sim:/testbench/ClkRam \
+sim:/testbench/Rst \
+sim:/testbench/InternalBus
+add wave -position insertpoint  \
+sim:/testbench/ux/MAR \
+sim:/testbench/ux/MDR \
+sim:/testbench/ux/R0 \
+sim:/testbench/ux/R1 \
+sim:/testbench/ux/R2 \
+sim:/testbench/ux/R3 \
+sim:/testbench/ux/MDRIn \
+sim:/testbench/ux/RamOut 
+add wave -position insertpoint  \
+sim:/testbench/ux/src \
+sim:/testbench/ux/dest
+run
+run 800
+

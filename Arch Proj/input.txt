@@ -1,0 +1,7 @@
+INC R0
+HLT
+
+//Address Data (decimal)
+33 44
+35 17
+37 10

@@ -1,0 +1,158 @@
+
+$ 000000
+# MOV
+TMP-Bout   INC   X   END
+
+$ 000001
+# ADD
+MDR-Bout   TMP-Cout   ADD   X   END
+
+$ 000010
+# ADC
+MDR-Bout   TMP-Cout   NC   ADD   X   END
+
+$ 000011
+# SUB
+MDR-Bout   TMP-Cout   SETC   SUB   X   END
+
+$ 000100
+# SBC
+MDR-Bout   TMP-Cout   NC   SUB   X   END
+
+$ 000101
+# AND
+MDR-Bout   TMP-Cout   AND   X   END
+
+$ 000110
+# OR
+MDR-Bout   TMP-Cout   OR   X   END
+
+$ 000111
+# XOR
+MDR-Bout   TMP-Cout   XOR   X   END
+
+$ 001000
+# BIC
+TMP-Bout   NOTA   TMP-Ain
+MDR-Bout   TMP-Cout   AND   X   END
+
+$ 001010
+# CMP
+MDR-Bout   TMP-Cout   SETC   SUB   END
+
+$ 001011
+# INC
+MDR-Bout   SETC   INC   X   END
+
+$ 001100
+# DEC
+MDR-Bout   DEC   X   END
+
+$ 001101
+# CLR
+CLR   X   END
+
+$ 001110
+# INV
+MDR-Bout   NOTA   X   END
+
+$ 001111
+# LSR
+MDR-Bout   LSR   X   END
+
+$ 010000
+# ROR
+MDR-Bout   ROR   X   END
+
+$ 010001
+# RRC
+MDR-Bout   NC   RRC   X   END
+
+$ 010010
+# ASR
+MDR-Bout   ASR   X   END
+
+$ 010011
+# LSL
+MDR-Bout   LSL   X   END
+
+$ 010100
+# ROL
+MDR-Bout   ROL   X   END
+
+$ 010101
+# RLC
+MDR-Bout   NC   RLC   X   END
+
+$ 010110
+# HLT
+END   HLT
+
+$ 010111
+# NOP
+END
+
+$ 011000
+# RESET
+RST   END
+
+$ 011001
+# JSR
+PC-Bout   PC-Cout   MAR-Cin   Rd   WMFC   SETC   INC   PC-Ain
+SP-Bout   MDR-Cout   TMP-Cin   DEC   MAR-Ain
+SP-Bout   PC-Cout   MDR-Cin   Wr   WMFC   DEC   SP-Ain
+TMP-Cout   PC-Cin   END
+
+$ 011101
+# RTS
+SP-Cout   MAR-Cin   Rd   WMFC
+SP-Bout   MDR-Cout   PC-Cin   SETC   INC   SP-Ain   END
+
+$ 011111
+# fetch source register mode
+SRC-Cout   TMP-Cin   SrcToDst
+
+$ 100000
+# fetch source auto-increment mode
+SRC-Bout   SRC-Cout   MAR-Cin   Rd   WMFC   SETC   INC   SRC-Ain
+MDR-Cout   TMP-Cin      SrcToDst
+
+$ 100010
+# fetch source auto-decrement mode
+SRC-Bout   Rd   WMFC   DEC   MAR-Ain
+SRC-Bout   MDR-Cout   TMP-Cin   DEC   SRC-Ain   SrcToDst
+
+$ 100100
+# fetch source offset mode
+PC-Bout   PC-Cout   MAR-Cin   Rd   WMFC   SETC   INC   PC-Ain
+SRC-Bout   MDR-Cout   Rd   WMFC   ADD   MAR-Ain
+MDR-Cout   TMP-Cin   SrcToDst
+
+$ 100111
+# fetch destination register mode
+DST-Cout   MDR-Cin   Opcode
+
+$ 101000
+# fetch destination auto-increment mode
+DST-Bout   DST-Cout   MAR-Cin   Rd   WMFC   SETC   INC   DST-Ain   Opcode
+
+$ 101001
+# fetch destination auto-decrement mode
+DST-Bout   Rd   WMFC   DEC   MAR-Ain
+DST-Bout   DEC   DST-Ain   Opcode
+
+$ 101011
+# fetch destination offset mode
+PC-Bout   PC-Cout   MAR-Cin   Rd   WMFC   SETC   INC   PC-Ain
+SRC-Bout   MDR-Cout   Rd   WMFC   ADD   MAR-Ain   Opcode
+
+$ 101101
+# fetch and decode instruction
+PC-Bout   PC-Cout   MAR-Cin   Rd   WMFC   SETC   INC   PC-Ain
+MDR-Cout   IR-Cin   Execute
+
+$ 101111
+# branching
+PC-Bout   PC-Cout   MAR-Cin   Rd   WMFC   SETC   INC   PC-Ain
+FLAG-Bout   MDR-Cout   AND   TMP-Ain
+TMP-Bout   PC-Cout   ADD   PC-Ain   END

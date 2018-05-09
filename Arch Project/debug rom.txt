@@ -1,0 +1,50 @@
+ @0    ALU:  0000   Ain:  1111   Bout:  1000   Cin: 1111   Cout: 1111   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 1   HLT: 0   NXT: 100   
+ @1    ALU:  0001   Ain:  1111   Bout:  0110   Cin: 1111   Cout: 1000   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 1   HLT: 0   NXT: 100   
+ @2    ALU:  0001   Ain:  1111   Bout:  0110   Cin: 1111   Cout: 1000   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 1   X: 1   HLT: 0   NXT: 100   
+ @3    ALU:  0010   Ain:  1111   Bout:  0110   Cin: 1111   Cout: 1000   RST: 0   RW: 0   SETC: 1   WMFC: 0   NC: 0   X: 1   HLT: 0   NXT: 100   
+ @4    ALU:  0010   Ain:  1111   Bout:  0110   Cin: 1111   Cout: 1000   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 1   X: 1   HLT: 0   NXT: 100   
+ @5    ALU:  0100   Ain:  1111   Bout:  0110   Cin: 1111   Cout: 1000   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 1   HLT: 0   NXT: 100   
+ @6    ALU:  0101   Ain:  1111   Bout:  0110   Cin: 1111   Cout: 1000   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 1   HLT: 0   NXT: 100   
+ @7    ALU:  0110   Ain:  1111   Bout:  0110   Cin: 1111   Cout: 1000   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 1   HLT: 0   NXT: 100   
+ @8    ALU:  0111   Ain:  1000   Bout:  1000   Cin: 1111   Cout: 1111   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 0   HLT: 0   NXT: 000   
+ @9    ALU:  0100   Ain:  1111   Bout:  0110   Cin: 1111   Cout: 1000   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 1   HLT: 0   NXT: 100   
+ @A    ALU:  0010   Ain:  1111   Bout:  0110   Cin: 1111   Cout: 1000   RST: 0   RW: 0   SETC: 1   WMFC: 0   NC: 0   X: 0   HLT: 0   NXT: 100   
+ @B    ALU:  0000   Ain:  1111   Bout:  0110   Cin: 1111   Cout: 1111   RST: 0   RW: 0   SETC: 1   WMFC: 0   NC: 0   X: 1   HLT: 0   NXT: 100   
+ @C    ALU:  0011   Ain:  1111   Bout:  0110   Cin: 1111   Cout: 1111   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 1   HLT: 0   NXT: 100   
+ @D    ALU:  1111   Ain:  1111   Bout:  1111   Cin: 1111   Cout: 1111   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 1   HLT: 0   NXT: 100   
+ @E    ALU:  0111   Ain:  1111   Bout:  0110   Cin: 1111   Cout: 1111   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 1   HLT: 0   NXT: 100   
+ @F    ALU:  1000   Ain:  1111   Bout:  0110   Cin: 1111   Cout: 1111   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 1   HLT: 0   NXT: 100   
+@10    ALU:  1001   Ain:  1111   Bout:  0110   Cin: 1111   Cout: 1111   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 1   HLT: 0   NXT: 100   
+@11    ALU:  1010   Ain:  1111   Bout:  0110   Cin: 1111   Cout: 1111   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 1   X: 1   HLT: 0   NXT: 100   
+@12    ALU:  1011   Ain:  1111   Bout:  0110   Cin: 1111   Cout: 1111   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 1   HLT: 0   NXT: 100   
+@13    ALU:  1100   Ain:  1111   Bout:  0110   Cin: 1111   Cout: 1111   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 1   HLT: 0   NXT: 100   
+@14    ALU:  1101   Ain:  1111   Bout:  0110   Cin: 1111   Cout: 1111   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 1   HLT: 0   NXT: 100   
+@15    ALU:  1110   Ain:  1111   Bout:  0110   Cin: 1111   Cout: 1111   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 1   X: 1   HLT: 0   NXT: 100   
+@16    ALU:  1111   Ain:  1111   Bout:  1111   Cin: 1111   Cout: 1111   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 0   HLT: 1   NXT: 100   
+@17    ALU:  1111   Ain:  1111   Bout:  1111   Cin: 1111   Cout: 1111   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 0   HLT: 0   NXT: 100   
+@18    ALU:  1111   Ain:  1111   Bout:  1111   Cin: 1111   Cout: 1111   RST: 1   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 0   HLT: 0   NXT: 100   
+@19    ALU:  0000   Ain:  0010   Bout:  0010   Cin: 0101   Cout: 0010   RST: 0   RW: 0   SETC: 1   WMFC: 1   NC: 0   X: 0   HLT: 0   NXT: 000   
+@1A    ALU:  0011   Ain:  0101   Bout:  0011   Cin: 1000   Cout: 0110   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 0   HLT: 0   NXT: 000   
+@1B    ALU:  0011   Ain:  0011   Bout:  0011   Cin: 0110   Cout: 0010   RST: 0   RW: 1   SETC: 0   WMFC: 1   NC: 0   X: 0   HLT: 0   NXT: 000   
+@1C    ALU:  1111   Ain:  1111   Bout:  1111   Cin: 0010   Cout: 1000   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 0   HLT: 0   NXT: 100   
+@1D    ALU:  1111   Ain:  1111   Bout:  1111   Cin: 0101   Cout: 0011   RST: 0   RW: 0   SETC: 0   WMFC: 1   NC: 0   X: 0   HLT: 0   NXT: 000   
+@1E    ALU:  0000   Ain:  0011   Bout:  0011   Cin: 0010   Cout: 0110   RST: 0   RW: 0   SETC: 1   WMFC: 0   NC: 0   X: 0   HLT: 0   NXT: 100   
+@1F    ALU:  1111   Ain:  1111   Bout:  1111   Cin: 1000   Cout: 0001   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 0   HLT: 0   NXT: 010   
+@20    ALU:  0000   Ain:  0001   Bout:  0001   Cin: 0101   Cout: 0001   RST: 0   RW: 0   SETC: 1   WMFC: 1   NC: 0   X: 0   HLT: 0   NXT: 000   
+@21    ALU:  0000   Ain:  1111   Bout:  1111   Cin: 1000   Cout: 0110   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 0   HLT: 0   NXT: 010   
+@22    ALU:  0011   Ain:  0101   Bout:  0001   Cin: 1111   Cout: 1111   RST: 0   RW: 0   SETC: 0   WMFC: 1   NC: 0   X: 0   HLT: 0   NXT: 000   
+@23    ALU:  0011   Ain:  0001   Bout:  0001   Cin: 1000   Cout: 0110   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 0   HLT: 0   NXT: 010   
+@24    ALU:  0000   Ain:  0010   Bout:  0010   Cin: 0101   Cout: 0010   RST: 0   RW: 0   SETC: 1   WMFC: 1   NC: 0   X: 0   HLT: 0   NXT: 000   
+@25    ALU:  0001   Ain:  0101   Bout:  0001   Cin: 1111   Cout: 0110   RST: 0   RW: 0   SETC: 0   WMFC: 1   NC: 0   X: 0   HLT: 0   NXT: 000   
+@26    ALU:  1111   Ain:  1111   Bout:  1111   Cin: 1000   Cout: 0110   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 0   HLT: 0   NXT: 010   
+@27    ALU:  1111   Ain:  1111   Bout:  1111   Cin: 0110   Cout: 0000   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 0   HLT: 0   NXT: 011   
+@28    ALU:  0000   Ain:  0000   Bout:  0000   Cin: 0101   Cout: 0000   RST: 0   RW: 0   SETC: 1   WMFC: 1   NC: 0   X: 0   HLT: 0   NXT: 011   
+@29    ALU:  0011   Ain:  0101   Bout:  0000   Cin: 1111   Cout: 1111   RST: 0   RW: 0   SETC: 0   WMFC: 1   NC: 0   X: 0   HLT: 0   NXT: 000   
+@2A    ALU:  0011   Ain:  0000   Bout:  0000   Cin: 1111   Cout: 1111   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 0   HLT: 0   NXT: 011   
+@2B    ALU:  0000   Ain:  0010   Bout:  0010   Cin: 0101   Cout: 0010   RST: 0   RW: 0   SETC: 1   WMFC: 1   NC: 0   X: 0   HLT: 0   NXT: 000   
+@2C    ALU:  0001   Ain:  0101   Bout:  0001   Cin: 1111   Cout: 0110   RST: 0   RW: 0   SETC: 0   WMFC: 1   NC: 0   X: 0   HLT: 0   NXT: 011   
+@2D    ALU:  0000   Ain:  0010   Bout:  0010   Cin: 0101   Cout: 0010   RST: 0   RW: 0   SETC: 1   WMFC: 1   NC: 0   X: 0   HLT: 0   NXT: 000   
+@2E    ALU:  1111   Ain:  1111   Bout:  1111   Cin: 0100   Cout: 0110   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 0   HLT: 0   NXT: 001   
+@2F    ALU:  0000   Ain:  0010   Bout:  0010   Cin: 0101   Cout: 0010   RST: 0   RW: 0   SETC: 1   WMFC: 1   NC: 0   X: 0   HLT: 0   NXT: 000   
+@30    ALU:  0100   Ain:  1000   Bout:  0111   Cin: 1111   Cout: 0110   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 0   HLT: 0   NXT: 000   
+@31    ALU:  0001   Ain:  0010   Bout:  1000   Cin: 1111   Cout: 0010   RST: 0   RW: 0   SETC: 0   WMFC: 0   NC: 0   X: 0   HLT: 0   NXT: 100   
